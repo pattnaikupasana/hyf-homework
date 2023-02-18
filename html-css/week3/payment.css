@@ -136,6 +136,7 @@ h3 {
 
   .button {
     width: 80%;
+    padding:20px
   }
   .card-details {
     flex-wrap: wrap;
@@ -143,6 +144,7 @@ h3 {
   }
   .card-number {
     width: 100%;
+    margin: 10px;
   }
   .expiry-date,
   .security-code {
