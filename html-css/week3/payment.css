@@ -130,6 +130,10 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
+  .payment-page{
+    max-width: 100%;
+  }
+
   .button {
     width: 80%;
   }
