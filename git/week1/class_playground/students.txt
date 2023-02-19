@@ -1,2 +1,7 @@
 we are here!
 we are 16 students
+create a new branch
+change existing file
+add a new file
+push
+create a pr
