@@ -7,11 +7,11 @@ volumeInMeters = width * height * deep;
 let peterActualHousePrice = 2500000
 let peterExpectedHousePrice = volumeInMeters * 2.5 * 1000 + gardenSize * 300;
 if (peterActualHousePrice > peterExpectedHousePrice) {
-    //console.log(`Peter Paid too much`);
-    document.getElementById("peterHousePriceCalculation").innerHTML = `Peter Paid too much`;
+console.log(`Peter Paid too much`);
+
 } else {
-    //console.log(`Peter Paid too little`);
-    document.getElementById("peterHousePriceCalculation").innerHTML = `Peter Paid too little`;
+console.log(`Peter Paid too little`);
+
 }
 
 //forJuliaHousePrice
@@ -20,10 +20,10 @@ volumeInMeters = width * height * deep;
 let juliaActualHousePrice = 1000000
 let juliaExpectedHousePrice = volumeInMeters * 2.5 * 1000 + gardenSize * 300
 if (juliaActualHousePrice > juliaExpectedHousePrice) {
-    //console.log(`Julia Paid too much`);
-    document.getElementById("juliaHousePriceCalculation").innerHTML = `Julia Paid too much`;
+console.log(`Julia Paid too much`);
+
 
 } else {
-    //console.log(`Julia Paid too little`);
-    document.getElementById("juliaHousePriceCalculation").innerHTML = `Julia Paid too little`;
+console.log(`Julia Paid too little`);
+
 }

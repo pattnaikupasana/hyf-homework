@@ -1,9 +1,5 @@
-let yearOfBirth = document.getElementById("birthYear").value;
-
-let yearFuture = document.getElementById("futureYear").value;
-
+let yearOfBirth = 1991;
+let yearFuture = 2020;
 let age = yearFuture - yearOfBirth;
+console.log(`You will be ${age} years old in ${yearFuture}.`);
 
-document.getElementById("calculatedAge").innerHTML = `You will be ${age} years old in ${yearFuture}`;
-
-//console.log(`You will be ${age} years old in ${yearFuture}.`);

@@ -2,5 +2,4 @@ let firstWords = ["Easy", "Awesome", "Corporate", "smile", "lego,", "party", "Ac
 let secondWords = ["Optima", "Thrive", "Zenith", "future", "factor", "crafts", "plex", "land", "telecom", "travel"];
 const randomNumber = Math.floor(Math.random() * 10);
 const startupName = firstWords[randomNumber] + secondWords[randomNumber];
-//console.log(`The start up is ${startupName} and it contains ${startupName.length}characters`);
-document.getElementById("newStartupName").innerHTML = `The start up is ${startupName} and it contains ${startupName.length}characters`;
+console.log(`The start up is ${startupName} and it contains ${startupName.length} characters`);
