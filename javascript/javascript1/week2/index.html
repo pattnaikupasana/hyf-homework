@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-week2-Homework</title>
+    <script src="flight-booking.js"></script>
+    <script src="event-app.js"></script>
+    <script src="weather-wear.js"></script>
+    <script src="student-manager.js"></script>
+</head>
+
+<body>
+    <!--Flight booking-->
+    <div style="background-color: aquamarine;">
+        <h1>Flight Booking Page</h1>
+        <div class="first_name">
+            <h3>Your First Name here:</h3>
+            <label for="firstname">FirstName</label>
+            <input type="text" id="fname" placeholder="firstname">
+        </div>
+        <div class="last_name">
+            <h3>Your last Name here:</h3>
+            <label for="lastname">Lastname</label>
+            <input type="text" id="lname" placeholder="lastname">
+        </div>
+        <div class="useFormalName">
+            <h3>Do you need formal name:</h3>
+            <label for="formalName">Formal Name</label>
+            <input type="text" id="formalName" placeholder="male / female">
+        </div><br>
+        <button type="button" onclick="getFullname()">Try it</button>
+        <h3>Your Full Name here:</h3>
+        <div id="fullName"></div>
+    </div>
+    <!--weather wear-->
+    <div style="background-color: pink;">
+        <h1>Todays weather:</h1>
+        <input type="text" id="temp" placeholder="tempreture">
+        <div id="tempOutput"></div>
+        <button type="button" onclick="weatherWearClothes()">Try it</button>
+    </div>
+    <!--event-aap-->
+    <div style="background-color: brown;">
+        <h1>Event day:</h1>
+        <input type="number" id="event">
+        <div id="eventdayOutput"></div>
+        <button type="button" onclick="calculateWeekday()">Try it</button>
+    </div>
+    <!--student manager-->
+    <div style="background-color: bisque;">
+        <h1>Student Names:</h1>
+        <input type="text" id="students">
+        <div id="studentsNameOutput"></div>
+        <button type="button" onclick="addStudentToClass()">Try it</button>
+    </div>
+    <div style="color: black;">
+        <h2>My freecodecamp Username is: Upasana_Pattnaik</h2>
+    </div>
+</body>
+
+</html>
