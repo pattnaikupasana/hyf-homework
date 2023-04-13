@@ -2,7 +2,7 @@
 let toDo=[];
 function getReply(command) {
 // Name actions
-{
+
     if (command.includes('Hello my name is')) {
         var lastWord = command.split(" ").slice(-1)[0];
         if (lastWord === "" || lastWord.length < 2) {
@@ -13,7 +13,7 @@ function getReply(command) {
     }
     if (command.includes('What is my name')) {
         return `My name is Upasana`;
-        }
+        
 }
 //toDo list
 
