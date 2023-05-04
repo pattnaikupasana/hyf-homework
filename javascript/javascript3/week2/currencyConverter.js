@@ -18,6 +18,6 @@ async function convert() {
       2
     )} ${toCurrency}`;
   } catch (error) {
-    console.erorr(error);
+    console.error(error);
   }
 }
