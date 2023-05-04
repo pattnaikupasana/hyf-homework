@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.heading {
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0;
+}
+input {
+  width: 250px;
+  height: 40px;
+  border-radius: 1rem;
+  text-align: center;
+}
+button {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: greenyellow;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
