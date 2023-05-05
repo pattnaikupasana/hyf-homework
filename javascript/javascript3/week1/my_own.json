@@ -1,0 +1,21 @@
+{
+  "city": "Banglore",
+  "country": "India",
+  "weather": [
+    {
+      "date": "2023-05-05",
+      "temperature": 25,
+      "description": "rainy"
+    },
+    {
+      "date": "2023-05-06",
+      "temperature": 20,
+      "description": "Partly cloudy"
+    },
+    {
+      "date": "2023-05-07",
+      "temperature": 26,
+      "description": "sunny"
+    }
+  ]
+}
