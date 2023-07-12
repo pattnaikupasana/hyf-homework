@@ -1,0 +1,9 @@
+body {
+  padding: 50px;
+  background-color: rgb(225, 253, 244);
+  font-family: sans-serif;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
